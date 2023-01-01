@@ -1,0 +1,60 @@
+nav ul{
+    list-style: none;
+    margin-top: 40px;
+}
+nav{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -60%);
+}
+nav ul li{
+    margin-top: 24px;
+    font-size: 17px !important;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+}
+nav ul li:hover{
+    letter-spacing: 2px;
+}
+.copyright{
+    margin-top: 40px;
+}
+.icones-nav{
+    margin-right: 20px !important;
+}
+.links-nav{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.links-nav:hover{
+    font-weight: 600;
+}
+nav img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position: center;   
+}
+nav p{
+    font-style: italic;
+    color: rgba(64, 64, 64, 0.758);
+    margin-top: 4px;
+}
+.creator{
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+}
+.avatar-nav{
+    width: 150%;
+    text-align: center;
+}
+
+.active {
+    font-weight: bold;
+}

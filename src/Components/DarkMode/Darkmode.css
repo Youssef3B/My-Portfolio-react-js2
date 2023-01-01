@@ -1,0 +1,17 @@
+.bg-icone-darkmode{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #dfdfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    cursor: pointer;
+    z-index: 10;
+}
+#icone-darkmode{
+    font-size: 22px;
+}

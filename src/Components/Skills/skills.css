@@ -1,0 +1,190 @@
+.skills{
+  width: 100%;
+  animation: fadeDown 0.5s ease-out;
+  
+}
+.wrapper{
+
+  width: 780px;
+  margin: auto;
+  margin-top: 100px;
+ 
+}
+.container{
+  width: 100%;
+  padding: 30px 30px 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+} 
+
+.container {
+  color: black;
+  font-weight: 500;
+}
+.container h2{
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+.container h4{
+  text-align: center;
+  font-size: 24px;
+}
+.details{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar{
+  position: relative;
+
+  border: 2px solid rgb(51, 48, 48);
+
+  border-radius: 20px;
+
+}
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: rgb(62, 61, 61);
+
+
+}
+
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+
+#html-bar{
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 90%;
+  }
+}
+
+
+#css-bar{
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+  100%{
+      width: 80%;
+  }
+}
+
+
+#javascript-bar{
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100%{
+      width: 60%;
+  }
+}
+#bootstrap-bar{
+  animation: bs-fill 2s forwards;
+}
+@keyframes bs-fill {
+  100%{
+      width: 72%;
+  }
+}
+#tailwind-bar{
+  animation: tl-fill 2s forwards;
+}
+@keyframes tl-fill {
+  100%{
+      width: 60%;
+  }
+}
+#sass-bar{
+  animation: sass-fill 2s forwards;
+}
+@keyframes sass-fill {
+  100%{
+      width: 80%;
+  }
+}
+
+
+
+#jQuery-bar{
+  animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+  100%{
+      width: 58%;
+  }
+} 
+#React-bar{
+  animation: React-fill 2s forwards;
+}
+@keyframes React-fill{
+  100%{
+      width: 30%;
+  }
+} 
+
+
+@media (max-width: 1394px){
+  .wrapper{
+
+    width: 690px;
+   
+    margin-top: 100px;
+   
+  }
+}
+@media (max-width: 1224px){
+  .wrapper{
+
+    width: 600px;
+   
+
+   
+  }
+}
+@media (max-width: 800px){
+  .wrapper{
+    
+    width: 500px;
+  }
+  .container{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  } 
+}
+@media (max-width: 600px){
+  .wrapper{
+
+    width: 300px;
+  
+  
+ 
+   
+  }
+}
+@media (max-width: 450px){
+  .wrapper{
+   
+    width: 250px;
+  }
+  .container{
+    width: 100%;
+    padding: 10px 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  } 
+}

@@ -1,0 +1,118 @@
+.contact{
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.contact img{
+    width: 900px;
+    animation: fadeUp 0.5s ease-out;
+    
+}
+.contact h6{
+    font-size: 20px;
+    margin-bottom: 10px;
+    animation: fadeUp 0.7s ease-out;
+}
+.contact h4{
+    font-size: 26px;
+    margin-bottom: 10px;
+    animation: fadeUp 0.7s ease-out;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin-top: 20px;
+    animation: fadeRight 0.5s ease-out;
+}
+.contact form input,textarea{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.416);
+}
+.contact form input,textarea:focus{
+    outline: none;
+}
+
+.contact button{
+    width: 200px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.contact button:hover{
+    letter-spacing: 1.8px;
+}
+@media (max-width: 1394px){
+    .contact img{
+        width: 600px;
+    }
+    .contact{
+        max-width: 600px;
+        margin-top: 30px; 
+        margin: auto;
+        
+    }
+    .contact form{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1124px){
+    .contact img{
+        width: 500px;
+    }
+    .contact{
+        max-width: 500px;
+        margin-top: 30px; 
+        
+    }
+    .contact form{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 800px){
+    .contact img{
+        width: 400px;
+    }
+    .contact{
+        width: 400px;
+    }
+    .contact form{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-top: 20px;
+    }
+    .contact button{
+        width: 160px;
+    }
+}
+@media (max-width: 600px){
+    .contact img{
+        width: 300px;
+    }
+    .contact{
+        width: 300px;
+    }
+    .contact form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-top: 20px;
+    }
+    .contact button{
+        width: 160px;
+    }
+}
